@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabitha Kunda Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Smooth fade + slide animations */
+    .fade-up { opacity: 0; transform: translateY(20px); transition: all 0.8s ease; }
+    .fade-up.show { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-gray-100 to-purple-100 text-gray-900">
+  <!-- Header -->
+  <header class="w-full py-6 px-10 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Tabitha<span class="text-purple-600">.</span></h1>
+
+    <nav class="hidden md:flex space-x-8 font-medium">
+      <a href="#about" class="hover:text-purple-600">About</a>
+      <a href="#skills" class="hover:text-purple-600">Skills</a>
+      <a href="#projects" class="hover:text-purple-600">Projects</a>
+      <a href="#contact" class="hover:text-purple-600">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="w-full max-w-6xl mx-auto mt-10 p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-purple-600 font-semibold text-lg">Hello, I'm Tabitha </h2>
+        <h3 class="text-4xl font-bold leading-tight mt-2">Front‑End Developer & Software Engineering Student</h3>
+        <p class="mt-4 text-gray-700 leading-relaxed">
+          I'm passionate about building beautiful, responsive and user‑friendly web applications.
+          I specialize in JavaScript, React, TypeScript, Next.js, and UI/UX design with Figma.
+        </p>
+       <a href="socials.html" class="mt-6 inline-block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-xl">
+  Get to know me
+</a>
+
+      </div>
+
+      <div class="flex justify-center">
+        <div class="w-64 h-64 rounded-full overflow-hidden shadow-xl">
+          <img src="" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 text-center mt-10 gap-6">
+      <div><h4 class="text-2xl font-bold">+15</h4><p class="text-gray-600">Projects</p></div>
+      <div><h4 class="text-2xl font-bold">+8</h4><p class="text-gray-600">Technologies</p></div>
+      <div><h4 class="text-2xl font-bold">+3</h4><p class="text-gray-600">Years Learning</p></div>
+      <div><h4 class="text-2xl font-bold">100%</h4><p class="text-gray-600">Passion</p></div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="w-full mt-20 py-10 bg-white/60 backdrop-blur">
+    <h3 class="text-center text-3xl font-bold">My Skills</h3>
+    <p class="text-center text-gray-600 mt-2">Tools & technologies I work with</p>
+
+    <div class="grid max-w-5xl mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 p-4">
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="font-semibold text-purple-600">Frontend Development</h4>
+        <p class="text-gray-700 mt-2">HTML, CSS, JavaScript, TailwindCSS</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="font-semibold text-purple-600">Frameworks</h4>
+        <p class="text-gray-700 mt-2">React, Next.js</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="font-semibold text-purple-600">Programming Languages</h4>
+        <p class="text-gray-700 mt-2">TypeScript, C, C++, Python</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="font-semibold text-purple-600">UI/UX Design</h4>
+        <p class="text-gray-700 mt-2">Figma, Prototyping, Wireframing</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="font-semibold text-purple-600">Version Control</h4>
+        <p class="text-gray-700 mt-2">Git & GitHub</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="font-semibold text-purple-600">Soft Skills</h4>
+        <p class="text-gray-700 mt-2">Problem‑solving, Teamwork, Creativity</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="w-full mt-20 p-10">
+    <h3 class="text-center text-3xl font-bold">Featured Projects</h3>
+    <p class="text-center text-gray-600 mt-2">Some of my best work</p>
+
+    <div class="grid max-w-5xl mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+      <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">
+        <div class="h-40 bg-gray-200 rounded"></div>
+        <h4 class="font-semibold text-xl mt-4">Project One</h4>
+        <p class="text-gray-600 text-sm">A modern UI portfolio website.</p>
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">
+        <div class="h-40 bg-gray-200 rounded"></div>
+        <h4 class="font-semibold text-xl mt-4">Project Two</h4>
+        <p class="text-gray-600 text-sm">React + Tailwind dashboard.</p>
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">
+        <div class="h-40 bg-gray-200 rounded"></div>
+        <h4 class="font-semibold text-xl mt-4">Project Three</h4>
+        <p class="text-gray-600 text-sm">Next.js full‑stack app.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="w-full bg-purple-600 text-white py-16 mt-20">
+    <h3 class="text-center text-3xl font-bold">Get In Touch</h3>
+    <p class="text-center mt-2">Let's work together 💜</p>
+
+    <form class="max-w-xl mx-auto mt-8 grid grid-cols-1 gap-4 p-4">
+      <input class="p-3 rounded text-gray-900" placeholder="Your Name" />
+      <input class="p-3 rounded text-gray-900" placeholder="Email" />
+      <textarea rows="4" class="p-3 rounded text-gray-900" placeholder="Message"></textarea>
+      <button class="bg-black py-3 rounded text-white hover:bg-gray-800">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="py-6 text-center text-gray-600 text-sm">© 2025 Tabitha Kunda</footer>
+<script>
+  // Reveal sections on scroll
+  const elements = document.querySelectorAll('.fade-up');
+
+  const reveal = () => {
+    const trigger = window.innerHeight * 0.85;
+    elements.forEach(el => {
+      const top = el.getBoundingClientRect().top;
+      if (top < trigger) {
+        el.classList.add('show');
+      }
+    });
+  };
+
+  window.addEventListener('scroll', reveal);
+  window.addEventListener('load', reveal);
+</script>
+</body>
+</html>
